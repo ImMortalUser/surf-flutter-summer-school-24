@@ -7,9 +7,15 @@ environment:
   sdk: '>=3.4.3 <4.0.0'
 
 dependencies:
-  cupertino_icons: ^1.0.8
+  collection: ^1.18.0
+  shared_preferences: ^2.2.3
   flutter:
     sdk: flutter
+  http: ^1.2.2
+  dio: ^5.5.0+1
+  image_picker: ^1.1.2
+  animations: ^2.0.11
+
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +24,20 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/image1.jpg
+    - assets/image2.jpg
+    - assets/image3.jpg
+    - assets/image4.jpg
+    - assets/image5.jpg
+    - assets/logo.png
+    - assets/logo_light.png
+    - assets/options.png
+    - assets/blurred.png
+    - assets/theme.png
+    - assets/upload.png
+    - assets/smile.png
+    - assets/options_light.png
+    - assets/theme_light.png
+    - assets/upload_light.png
+
